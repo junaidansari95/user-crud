@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.grid-container{
+  max-width: 1335px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.grid-item {
+    display: flex;
+  margin: auto;
+  flex-basis: 20%;
+  /* -ms-flex: auto; */
+  max-width: 259px;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.card-root {
+  min-width: 275px;
+  margin: 24px;
+}
+.adrs-pos{
+  margin-bottom: 12px;
+}
+.add-person{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  widows: 25ch;
+}
+.add-person > .input-text{
+  margin: 12px;
+}
